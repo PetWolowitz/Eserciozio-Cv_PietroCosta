@@ -1,8 +1,7 @@
-
-/* Stili CSS personalizzati */
+/* Stili CSS per CV */
 
 body {
-    background-color: rgba(74, 10, 143, 0.283) ;/* Sfondo leggero per il corpo del documento */
+    background-color: rgba(74, 10, 143, 0.283); /* Sfondo leggero per il corpo del documento */
 }
 
 .left-container {
@@ -12,13 +11,33 @@ body {
 }
 
 .right-container {
-    padding: 30px; /* Spaziatura interna */
+    padding: 30px;
 }
 
 .profile-img {
     width: 150px;
     margin: 20px auto;
     border: 5px solid white; /* Bordo bianco intorno alla foto del profilo */
+}
+
+p {
+    font-size: 1.1em; /* Ingrandimento del testo per i paragrafi */
+}
+
+h6 {
+    font-size: 1.2em; /* Ingrandimento del testo per gli h6 */
+}
+
+/* Centrare il testo nelle sezioni Formazione e Lingue */
+.left-container .education, 
+.left-container .languages {
+    text-align: center;
+}
+
+/* Aumentare la spaziatura tra le sezioni nel container di destra */
+.right-container .work-experience,
+.right-container .skills {
+    margin-bottom: 50px;
 }
 
 /* Media queries per la responsività */
@@ -32,27 +51,3 @@ body {
         width: 120px; /* Riduci le dimensioni dell'immagine per schermi più piccoli */
     }
 }
-
-/* Aggiungi qui altri stili per elementi specifici come intestazioni, liste, ecc. */
-/* Ad esempio, per gli elementi di contatto e le icone di FontAwesome: */
-
-.contact-item {
-    margin-bottom: 10px;
-}
-
-.contact-item i {
-    margin-right: 10px;
-}
-
-/* Stili per le intestazioni delle sezioni e il testo */
-.section-header {
-    font-size: 1.5em;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.section-content {
-    font-size: 1em;
-}
-
-/* Assicurati di testare la responsività del layout su vari dispositivi */
