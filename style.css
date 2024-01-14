@@ -1,0 +1,58 @@
+
+/* Stili CSS personalizzati */
+
+body {
+    background-color: rgba(74, 10, 143, 0.283) ;/* Sfondo leggero per il corpo del documento */
+}
+
+.left-container {
+    background-color: rgba(74, 10, 143, 0.858); /* Sfondo scuro per la colonna di sinistra */
+    color: white; /* Testo chiaro per contrasto */
+    padding: 30px; /* Spaziatura interna */
+}
+
+.right-container {
+    padding: 30px; /* Spaziatura interna */
+}
+
+.profile-img {
+    width: 150px;
+    margin: 20px auto;
+    border: 5px solid white; /* Bordo bianco intorno alla foto del profilo */
+}
+
+/* Media queries per la responsività */
+@media (max-width: 767px) {
+    .left-container,
+    .right-container {
+        padding: 15px; /* Spaziatura interna ridotta per dispositivi mobili */
+    }
+
+    .profile-img {
+        width: 120px; /* Riduci le dimensioni dell'immagine per schermi più piccoli */
+    }
+}
+
+/* Aggiungi qui altri stili per elementi specifici come intestazioni, liste, ecc. */
+/* Ad esempio, per gli elementi di contatto e le icone di FontAwesome: */
+
+.contact-item {
+    margin-bottom: 10px;
+}
+
+.contact-item i {
+    margin-right: 10px;
+}
+
+/* Stili per le intestazioni delle sezioni e il testo */
+.section-header {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.section-content {
+    font-size: 1em;
+}
+
+/* Assicurati di testare la responsività del layout su vari dispositivi */
